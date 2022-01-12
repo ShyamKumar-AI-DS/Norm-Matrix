@@ -14,14 +14,15 @@ To write a program to find the 2-norm of the matrix and display the result in tw
 ## Program:
 ```
 
-
-
-
-
+import numpy as np
+n=np.array(eval(input()))
+ans=np.linalg.norm(n,2)
+b="{:.2f}".format(ans)
+print(b)
 
 ```
 ## Sample Input and Output:
-![norm1](./input.jpg)
+![norm1](scr1.png)
 
 ## Result
 Thus the program for 2-norm of a matrix is written and verified.
